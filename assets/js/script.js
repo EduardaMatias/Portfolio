@@ -83,6 +83,10 @@ function validaAssunto(){
 function Enviar(){
   if(nomeOK && assuntoOK && emailOK){
     alert("Formulario enviado. Em breve entrarei em contato!")
+    backToTop()
+    inputNome.value = ''
+    inputEmail.value = ''
+    inputAssunto.value = ''
   } else {
     alert("Preencha todos os campos corretamente!")
   }
