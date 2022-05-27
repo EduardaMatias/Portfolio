@@ -1,0 +1,211 @@
+:root {
+    --purple: #9467F8;
+    --cinza: #292929;
+    --branco: rgba(255, 255, 255, 0.76);
+    --cinza-claro: #e4e4e478;
+    --vermelho: #b8625c;
+    --verde: #9DFF89;
+}
+
+body {
+    background-color: var(--cinza);
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+.alert{
+    width: 500px;
+    display: none;
+    transition: 1s;
+}
+
+.back {
+    width: 40px;
+    background-color: var(--purple);
+    transition: 1s;
+}
+
+.back i {
+    color: var(--branco);
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.nav-menu {
+    background-color: var(--cinza);
+}
+
+.nav-link {
+    color: var(--branco);
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: var(--purple);
+}
+
+h1 {
+    color: var(--purple);
+    font-size: 3.5rem;
+}
+
+p {
+    color: var(--branco);
+
+}
+
+.descricao {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+    color: var(--branco);
+    transition: 1s;
+    width: 150px;
+}
+
+button:hover {
+    background-color: var(--purple);
+}
+
+h2 {
+    color: var(--purple);
+    font-size: 2.5rem;
+}
+
+.sobre-mim {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+i {
+    color: var(--purple);
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.icons {
+    max-height: 80px;
+}
+
+.project {
+    border: 2px solid var(--purple);
+    box-shadow: 0 0 1em var(--purple);
+    transition: 1s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+a i {
+    cursor: pointer;
+}
+
+h5 {
+    color: var(--purple);
+}
+
+label {
+    color: var(--branco);
+}
+
+small {
+    color: var(--branco);
+}
+
+hr {
+    background-color: var(--cinza-claro);
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.txtInput{
+    color: var(--vermelho);
+    display: none;
+}
+
+.enviar{
+    background-color: var(--purple);
+}
+
+.enviar:hover{
+    background-color: var(--branco);
+}
+
+/* margens */
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+.mb-10 {
+    margin-bottom: 10rem;
+}
+
+.mt-15 {
+    margin-top: 15rem;
+}
+
+.mb-15 {
+    margin-bottom: 15rem;
+}
+
+/* animações */
+
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+}
+
+/* efeito máquina de escrever */
+
+.descricao::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* estilização barra de rolagem */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cinza);
+    border-radius: 0px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--branco);
+}
