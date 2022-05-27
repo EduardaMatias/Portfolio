@@ -39,12 +39,12 @@ html {
     background-color: var(--cinza);
 }
 
-.nav-link {
+.item-menu {
     color: var(--branco);
     font-size: 1.5rem;
 }
 
-.nav-link:hover {
+.item-menu:hover {
     color: var(--purple);
 }
 
@@ -67,13 +67,20 @@ button {
     background-color: transparent;
     border: 2px solid var(--purple);
     border-radius: 5px;
-    color: var(--branco);
     transition: 1s;
     width: 150px;
 }
 
 button:hover {
     background-color: var(--purple);
+}
+
+button a{
+    color: var(--branco);
+}
+
+button a:hover{
+    color: var(--branco);
 }
 
 h2 {
