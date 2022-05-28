@@ -22,6 +22,7 @@ html {
 }
 
 .back {
+    display: none;
     width: 40px;
     background-color: var(--purple);
     transition: 1s;
@@ -42,6 +43,7 @@ html {
 .item-menu {
     color: var(--branco);
     font-size: 1.5rem;
+    transition: 1s;
 }
 
 .item-menu:hover {
