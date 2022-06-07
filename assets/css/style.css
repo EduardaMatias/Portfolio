@@ -121,8 +121,8 @@ section#inicio div#arraste a{
 
 i.menu-mobile{
     position: fixed;
-    color: var(--bg-light);
-    background-color: var(--grey-light);
+    background-color: var(--grey);
+    color: var(--grey-light);
     right: 1em;
     top: 1em;
     font-size: 1.5em;
@@ -148,12 +148,15 @@ i.menu-mobile{
     #header{
         left: -300px;
     }
+
     i.menu-mobile{
         display: flex;
     }
+
     section#inicio h2{
         font-size: 2em;
     }
+
     #main{
        margin-left:0px;
     }
