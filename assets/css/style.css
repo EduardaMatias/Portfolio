@@ -97,22 +97,23 @@ section#inicio{
 }
 
 section#inicio h2{
-    font-size: 2.8em;
-    color: var(--grey-light);
+    font-size: 4em;
+    color: var(--pink);
+    text-shadow: 0.1px 0.1px 5px var(--pink);
     cursor: pointer;
-    margin-left: 50px;
+}
+
+section#inicio span{
+    color: var(--grey-light);
+    font-size: 2em;
     font-style: italic;
 }
 
 section#inicio .coment{
-    color: var(--pink);
+    color: var(--grey);
     font-size: 3em;
 }
 
-section#inicio h2 .nome, .dev{
-    color: var(--pink);
-    text-shadow: 0.1px 0.1px 8px var(--pink);
-}
 
 section#inicio div#arraste a{
     text-decoration: none;
@@ -157,6 +158,10 @@ i.menu-mobile{
         font-size: 2em;
     }
 
+    section#inicio span{
+        font-size: 1.2em;
+    }
+
     #main{
        margin-left:0px;
     }
@@ -164,6 +169,7 @@ i.menu-mobile{
     section#inicio .coment{
         margin-left: 25px;
     }
+
 }
 
 
