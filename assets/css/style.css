@@ -114,10 +114,23 @@ section#inicio span{
 }
 
 section#inicio button.btn{
-    color: var(--bg-dark);
     background-color: var(--pink);
     width: 150px;
     margin-top: 2em;
+    transition: 1s;
+}
+
+section#inicio button.btn a{
+    color: var(--bg-dark);
+    text-decoration: none;
+}
+
+section#inicio button.btn:focus{
+    box-shadow: none;
+}
+
+section#inicio button.btn:hover{
+   transform: scale(1.1);
 }
 
 i.menu-mobile{

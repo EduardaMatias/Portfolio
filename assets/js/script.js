@@ -8,3 +8,12 @@ menuMobile.addEventListener("click", () => {
     body.classList.toggle("menu-nav-active")
 });
 
+/*
+const nav = document.querySelector('.nav-link');
+
+nav.addEventListener("click", () => {
+    nav.classList.contains("active")
+    ? nav.classList.add("active")
+    : nav.classList.remove("active");
+});
+*/
