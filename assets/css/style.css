@@ -100,24 +100,24 @@ section#inicio h2{
     font-size: 4em;
     color: var(--pink);
     text-shadow: 0.1px 0.1px 5px var(--pink);
-    cursor: pointer;
+}
+
+section#inicio h6{
+    font-size: 2em;
+    color: var(--grey-light);
 }
 
 section#inicio span{
     color: var(--grey-light);
     font-size: 2em;
-    font-style: italic;
+    font-weight: 500;
 }
 
-section#inicio .coment{
-    color: var(--grey);
-    font-size: 3em;
-}
-
-
-section#inicio div#arraste a{
-    text-decoration: none;
-    color: var(--grey-light);
+section#inicio button.btn{
+    color: var(--bg-dark);
+    background-color: var(--pink);
+    width: 150px;
+    margin-top: 2em;
 }
 
 i.menu-mobile{
@@ -145,6 +145,30 @@ i.menu-mobile{
     left: 0;
 }
 
+section#sobre h2{
+    color: var(--pink);
+}
+
+section#sobre p{
+    color: var(--grey-light);
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+*::-webkit-scrollbar{
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    background-color: var(--bg-dark);
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: var(--grey);
+    border-radius: 50px;
+}
+
 @media (max-width: 1024px){
     #header{
         left: -300px;
@@ -155,21 +179,20 @@ i.menu-mobile{
     }
 
     section#inicio h2{
-        font-size: 2em;
+        font-size: 2.5em;
+    }
+
+    section#inicio h6{
+        font-size: 1.5em;
     }
 
     section#inicio span{
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     #main{
-       margin-left:0px;
+       margin-left: 20px;
     }
-
-    section#inicio .coment{
-        margin-left: 25px;
-    }
-
 }
 
 
