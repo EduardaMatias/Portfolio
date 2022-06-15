@@ -20,6 +20,10 @@ html, body{
     height: 100%;
 }
 
+html { 
+    scroll-behavior: smooth; 
+}
+
 #header{
     position: fixed;
     top: 0;
@@ -88,7 +92,7 @@ html, body{
 }
 
 #main{
-    margin-left: 420px;
+    margin-left: 350px;
 }
 
 section#inicio{
@@ -160,12 +164,46 @@ i.menu-mobile{
 
 section#sobre h2{
     color: var(--pink);
+    border-bottom: 5px solid var(--pink);
+    width: 170px;
 }
 
-section#sobre p{
+section#sobre .text-sobre-mim{
     color: var(--grey-light);
     font-size: 1.2em;
     text-align: justify;
+}
+
+section#sobre .list-group .list-group-item{
+    background-color: transparent;
+    border: none;
+}
+
+section#sobre .list-group{
+    box-shadow: 0.1px 0.1px 8px var(--grey-light);
+}
+
+section#sobre .list-group .list-group-item h5{
+   color: var(--pink);
+    text-transform: uppercase;
+}
+
+section#sobre .list-group .list-group-item p{
+   color: var(--grey-light);
+   font-size: 1.1em;
+}
+
+section#sobre .list-group .list-group-item .progress-bar{
+    background-color: var(--grey);
+}
+
+section#sobre .skills .list-group-item h5{
+    color: var(--grey-light);
+}
+
+section#sobre .list-group .list-group-item h4{
+    color: var(--pink);
+    text-transform: uppercase;
 }
 
 *::-webkit-scrollbar{
