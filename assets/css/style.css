@@ -8,6 +8,7 @@
     --purple: #bd93f9;
     --grey: #383A59;
     --grey-light: #6272a4;
+    --grey-light-opacity: #6273a448;
 }
 
 body{
@@ -227,6 +228,54 @@ section#formacao .descricao{
 
 section#formacao .descricao-generation h5{
     margin-top: 48px;
+}
+
+section#projetos .project-container{
+    border: 1px solid var(--grey-light);
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 10px var(--grey-light);
+    transition: 1s;
+    cursor: pointer;
+}
+
+section#projetos .project-container:hover{
+    transform: scale(1.05);
+}
+
+section#projetos .card{
+    border: none;
+}
+
+.modal-content{
+    background-color: var(--bg-dark);
+}
+
+.span-modal{
+    color: var(--bg-light);
+}
+
+.title-modal{
+    color: var(--pink);
+}
+
+.descricao-modal{
+    color: var(--grey-light);
+}
+
+.tecnologia-modal{
+    color: var(--grey-light);
+    background-color: var(--grey-light-opacity);
+    border-radius: 5px;
+}
+
+.container-icones{
+    color: var(--pink);
+    transition: 1s;
+}
+
+.container-icones:hover{
+    color: var(--pink);
+    text-decoration: none;
 }
 
 *::-webkit-scrollbar{

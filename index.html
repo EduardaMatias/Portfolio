@@ -47,7 +47,7 @@
                         Formação</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#projetos">
                         <i class="bi bi-collection"></i>
                         Projetos</a>
                 </li>
@@ -189,7 +189,8 @@
                     <p>Analisa, projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de
                         informação. Trabalha, também com ferramentas computacionais, equipamentos de informática e
                         metodologia de projetos na produção de sistemas.
-                        Possui raciocínio lógico, emprego de linguagens de programação e metodologias de projetos, preocupação
+                        Possui raciocínio lógico, emprego de linguagens de programação e metodologias de projetos,
+                        preocupação
                         com a qualidade, usabilidade, robustez, integridade e segurança de programas.</p>
                 </div>
             </div>
@@ -209,8 +210,78 @@
                 </div>
             </div>
         </section>
-    </main>
 
+        <section id="projetos" class="mt-5">
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2>Projetos</h2>
+                </div>
+            </div>
+            <div class="row w-100 d-flex justify-content-center mt-4">
+                <div class="col-md-4 mb-4 mr-5 project-container p-2" data-toggle="modal" data-target="#modal-theblog">
+                    <img class="img-fluid" src="assets/img/theblog.png" alt="Imagem do The Blog">
+                </div>
+                <div class="col-md-4 mb-4 mr-5 project-container p-2">
+                    <img class="img-fluid" src="assets/img/conectagen.png" alt="Imagem da Conecta Gen">
+                </div>
+            </div>
+            <div class="row w-100 d-flex justify-content-center">
+                <div class="col-md-4 mb-4 mr-5 project-container p-2">
+                    <img class="img-fluid" src="assets/img/formcadastro.png" alt="Imagem do Formulario de Cadastro">
+                </div>
+                <div class="col-md-4 mb-4 mr-5 project-container p-2">
+                    <img class="img-fluid" src="assets/img/mariogame.png" alt="Imagem do Formulario de Cadastro">
+                </div>
+            </div>
+            <div class="row w-100 d-flex justify-content-center">
+                <div class="col-md-4 mb-4 mr-5 project-container p-2">
+                    <img class="img-fluid" src="assets/img/calculadoraimc.png" alt="Imagem do Formulario de Cadastro">
+                </div>
+                <div class="col-md-4 mb-4 mr-5 project-container p-2">
+                    <img class="img-fluid" src="assets/img/conversortemperatura.png"
+                        alt="Imagem do Formulario de Cadastro">
+                </div>
+            </div>
+        </section>
+
+
+        <!--modais-->
+        <div class="modal fade" id="modal-theblog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollabl">
+                <div class="modal-content">
+                    <div class="mb-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="mr-2 span-modal">&times;</span>
+                        </button>
+                        <h2 class="mt-3 ml-3 title-modal">The Blog</h2>
+                    </div>
+                    <div>
+                        <p class="mx-3 descricao-modal text-justify">Blog pessoal desenvolvido durante o Bootcamp de Desenvolvedor Full-Stack Java Júnior da Generation. A partir desse projeto, aprendi a desenvolver uma API Rest usando o Spring, conceitos de responsividade no Bootstrap e componentização no Angular.
+                        </p>
+                        <div class="d-flex justify-content-center mb-3">
+                            <span class="tecnologia-modal py-1 px-3 mr-2">Spring Boot</span>
+                            <span class="tecnologia-modal py-1 px-3 mr-2">Bootstrap</span>
+                            <span class="tecnologia-modal py-1 px-3">Angular</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-2">
+                            <div class="d-flex mr-3">
+                                <a href="https://github.com/EduardaMatias/BlogPessoalFrontEnd" target="_blank" class="d-flex container-icones">
+                                    <i class="bi bi-github modal-icon mr-2"></i>
+                                    <p class="icon-ds">GitHub</p>
+                                </a>
+                            </div>
+                            <div class="d-flex container-icones">
+                                <a href="https://th-eblog.netlify.app/" target="_blank" class="d-flex container-icones">
+                                    <i class="bi bi-globe modal-icon mr-2"></i>
+                                    <p class="icon-ds">Deploy</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
