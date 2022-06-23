@@ -340,6 +340,10 @@ section#projetos .card{
     section#formacao .descricao h5{
         margin-top: 0px;
     }
+
+    section#projetos .project-container{
+        margin-left: 50px;
+    }
 }
 
 
